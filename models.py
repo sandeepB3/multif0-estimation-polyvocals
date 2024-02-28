@@ -4,7 +4,7 @@
 
 from tensorflow.keras.models import Model
 from tensorflow.keras.layers import Input, Lambda, Concatenate
-from tensorflow.keras.layers.convolutional import Conv2D
+from tensorflow.keras.layers import Conv2D
 from tensorflow.keras.layers.normalization import BatchNormalization
 from tensorflow.keras import backend as K
 
